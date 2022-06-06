@@ -23,6 +23,6 @@ npm install
 # Mix
 npm run dev
 
-# Deploy
+# Migrate database
 php artisan migrate
 ```
