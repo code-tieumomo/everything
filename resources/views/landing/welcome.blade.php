@@ -27,7 +27,7 @@
             <!--Login button Start-->
             <ul class="buy-button list-inline mb-0">
                 <li class="list-inline-item ps-1 mb-0">
-                    <a href="{{ route('dashboard.index') }}" target="_blank">
+                    <a href="{{ route('dashboard') }}" target="_blank">
                         <div class="btn btn-icon btn-pills btn-primary">
                             <i data-feather="play-circle" class="fea icon-sm"></i>
                         </div>
@@ -67,7 +67,7 @@
                         <h1 class="heading mb-3">CMS platform for everything</h1>
                         <p class="para-desc text-muted">Create your website very quickly with <strong>Everything</strong>.</p>
                         <div class="mt-4 pt-2">
-                            <a href="{{ route('dashboard.index') }}" class="btn btn-primary mt-2 me-2">Get Started</a>
+                            <a href="{{ route('dashboard') }}" class="btn btn-primary mt-2 me-2">Get Started</a>
                             <a href="#" class="btn btn-outline-primary mt-2"><i class="mdi mdi-phone"></i> Contact us</a>
                         </div>
                     </div>
@@ -347,7 +347,7 @@
                         <p class="text-muted para-desc mx-auto">Start working with <span
                                 class="text-primary fw-bold">Everything</span> that can publish your website to everyone in the world.</p>
                         <div class="mt-4 pt-2">
-                            <a href="{{ route('dashboard.index') }}" target="_blank" class="btn btn-primary m-1">
+                            <a href="{{ route('dashboard') }}" target="_blank" class="btn btn-primary m-1">
                                 Get started
                                 <span class="badge rounded-pill bg-danger ms-2">v1.0.0</span>
                             </a>
